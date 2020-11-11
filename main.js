@@ -1,7 +1,7 @@
 function onDragStart(event) {
   event.dataTransfer.setData("text/plain", event.target.id);
 
-  event.currentTarget.style.backgroundColor = "pink";
+  event.currentTarget.style.backgroundColor = "mediumslateblue";
 }
 
 function onDragOver(event) {

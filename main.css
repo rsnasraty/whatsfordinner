@@ -2,7 +2,7 @@
   border: 2px solid #98b9f7;
   color: black;
   display: inline-flex;
-  font-family: sans-serif;
+  font-family: 'Lucida', cursive;
   font-weight: bold;
 }
 
@@ -13,11 +13,12 @@
 }
 
 .example-draggable {
-  background-color: #8b6bc0;
+  background-color: #ebe1fa;
   font-weight: normal;
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 20px;
+  border: 2px solid #98b9f7;
 }
 
 .example-dropzone {
@@ -25,6 +26,8 @@
   flex-basis: 100%;
   flex-grow: 1;
   padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .title-name {
@@ -32,4 +35,6 @@
   padding: 10px;
   display: inline-flex;
   font-weight: bolder;
+  float: left;
+  font-family: 'Lucida', cursive;
 }
