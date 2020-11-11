@@ -1,28 +1,35 @@
 .example-parent {
-    border: 2px solid #DFA612;
-    color: black;
-    display: flex;
-    font-family: sans-serif;
-    font-weight: bold;
-  }
-  
-  .example-origin {
-    flex-basis: 100%;
-    flex-grow: 1;
-    padding: 10px;
-  }
-  
-  .example-draggable {
-    background-color: #4AAE9B;
-    font-weight: normal;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px;
-  }
-  
-  .example-dropzone {
-    background-color: #6DB65B;
-    flex-basis: 100%;
-    flex-grow: 1;
-    padding: 10px;
-  }
+  border: 2px solid #98b9f7;
+  color: black;
+  display: inline-flex;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.example-origin {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.example-draggable {
+  background-color: #8b6bc0;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.example-dropzone {
+  background-color: #98b9f7;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.title-name {
+  background-color: #98b9f7;
+  padding: 10px;
+  display: inline-flex;
+  font-weight: bolder;
+}
